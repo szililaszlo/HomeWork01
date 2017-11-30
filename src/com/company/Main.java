@@ -40,6 +40,16 @@ public class Main {
         System.out.println(deciliter + " dl = " + hektoliter + " hl");
         System.out.println("------------------------------");
 
-
+        //3
+        //Bekérem a kör sugarát
+        System.out.println("Kérem a kör sugarát: ");
+        Scanner radius = new Scanner(System.in);
+        //double használata a PI értéke miatt
+        double newRadius = radius.nextInt();
+        //elvégzem a műveletet
+        double sphereVolume =4*Math.pow(newRadius,3)*Math.PI/3;
+        //kiíratás
+        System.out.println("A 3 sugarú gömb térfogata: " + sphereVolume);
+        System.out.println("------------------------------");
     }
 }
