@@ -88,6 +88,7 @@ public class Main {
         char newCharacter = character.next().charAt(0);
         // ezt átkasztolom integer tipusba és megkapom az assci tábla beli értéket
         int ascii = (int) newCharacter;
-        System.out.println(ascii);
+        //kiíratás
+        System.out.println("A " + newCharacter + " karakter ASCII kódja: " + ascii);
     }
 }
