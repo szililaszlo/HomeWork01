@@ -51,5 +51,21 @@ public class Main {
         //kiíratás
         System.out.println("A 3 sugarú gömb térfogata: " + sphereVolume);
         System.out.println("------------------------------");
+
+        //4
+        //Bekérem a hőmérsékleti adatokat
+        System.out.println("Kérek egy hőmérsékleti értéket celsiusban: ");
+        Scanner celsius = new Scanner(System.in);
+        System.out.println("Kérek egy hőmérsékleti értéket fahrenheitben: ");
+        Scanner fahrenheit = new Scanner(System.in);
+        //double tipusú változókba elmentem az értékeket
+        double newCelsius = celsius.nextInt();
+        double newFahrenheit = fahrenheit.nextInt();
+        //elvégzem az átváltásokat a képletek alapján és elvézem a kiíratást
+        //a +32-nek zárójelen belül kell lennie különben csak hozzáfűzés történik
+        System.out.println(newCelsius +" celsius = " + (newCelsius /5*9+32) + " fahrenheit");
+        System.out.println(newFahrenheit +" fahrenheit = " + (newFahrenheit-32)* 5/9 + " celsius");
+        System.out.println("------------------------------");
+
     }
 }
