@@ -67,5 +67,17 @@ public class Main {
         System.out.println(newFahrenheit +" fahrenheit = " + (newFahrenheit-32)* 5/9 + " celsius");
         System.out.println("------------------------------");
 
+        //5
+        //a \n-el megtöröm a sort ha szükséges, a \t-vel pedig tabulátor segítésgével minden
+        // sort azonos nagysággal tolok el
+        System.out.println( "*********\n" +
+                            "*Hello \t*\n" +
+                            "*World \t*\n" +
+                            "*in \t*\n" +
+                            "*a \t\t*\n" +
+                            "*frame \t*\n" +
+                            "*********");
+        System.out.println("------------------------------");
+
     }
 }
