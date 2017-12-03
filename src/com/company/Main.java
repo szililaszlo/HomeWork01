@@ -79,5 +79,15 @@ public class Main {
                             "*********");
         System.out.println("------------------------------");
 
+        //6
+        //bekérek egy karaktert
+        System.out.println("Kérek egy karaktert: ");
+        Scanner character = new Scanner(System.in);
+        //mivel nem tudok bekérni char tipusú értéket ezért a bevitt szöveg első(azaz 0. helyén álló) karakterét
+        // veszem ki
+        char newCharacter = character.next().charAt(0);
+        // ezt átkasztolom integer tipusba és megkapom az assci tábla beli értéket
+        int ascii = (int) newCharacter;
+        System.out.println(ascii);
     }
 }
